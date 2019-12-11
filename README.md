@@ -1,4 +1,4 @@
-![alt test](/sshot-1.png)
+![alt test](/Cubist_Temp_1961_1990.png)
 
 # Comparison performance of machine learning and geostatistical methods for the interpolation of monthly air temperature over Costa Rica
 
