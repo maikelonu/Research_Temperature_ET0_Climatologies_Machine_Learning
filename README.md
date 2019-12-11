@@ -33,4 +33,10 @@ resulted in data redundancy. While the quantitative and qualitative evaluation o
 can be said to be comparable, CR is considered the best approach since the method is
 unaffected by assumptions on data normality and homoscedasticity.
 
+Temperature Climatology
+
 ![alt test](/Cubist_Temp_1961_1990.png)
+
+Spatial Covariants
+
+![alt test](/FR18_01.png)
