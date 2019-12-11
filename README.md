@@ -1,7 +1,5 @@
 # Comparison performance of machine learning and geostatistical methods for the interpolation of monthly air temperature over Costa Rica
 
-![alt test](/Cubist_Temp_1961_1990.png)
-
 IOP Conference Series: Earth and Environmental Science
 # https://iopscience.iop.org/journal/1755-1315
 
@@ -10,6 +8,12 @@ Forthcoming volumes
 
 2019 International Conference on Resources and Environmental Research (ICRER) 
 # http://www.icrer18.org
+
+![alt test](/sshot-1.png)
+
+Temperature Observational Network Costa Rica 1961-1990
+
+![alt test](/Image_001.png)
 
 Abstract:
 
@@ -28,3 +32,5 @@ process, since the remaining spatial fields exhibited poor correlation with temp
 resulted in data redundancy. While the quantitative and qualitative evaluation of CR and KED
 can be said to be comparable, CR is considered the best approach since the method is
 unaffected by assumptions on data normality and homoscedasticity.
+
+![alt test](/Cubist_Temp_1961_1990.png)
