@@ -1,6 +1,6 @@
-![alt test](/Cubist_Temp_1961_1990.png)
-
 # Comparison performance of machine learning and geostatistical methods for the interpolation of monthly air temperature over Costa Rica
+
+![alt test](/Cubist_Temp_1961_1990.png)
 
 IOP Conference Series: Earth and Environmental Science
 # https://iopscience.iop.org/journal/1755-1315
