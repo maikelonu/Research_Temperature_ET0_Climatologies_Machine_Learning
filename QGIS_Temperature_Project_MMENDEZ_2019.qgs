@@ -5,7 +5,7 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="IMN_Observed_Temp_ET0">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="IMN_Observed_Temp_ET0">
       <customproperties/>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_1x1_km">
         <customproperties/>
@@ -13,9 +13,9 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_25x25_km">
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_25x25_km">
         <customproperties/>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="IMN_temp_25x25_km20200123081537673" name="IMN_temp_25x25_km">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="IMN_temp_25x25_km20200123081537673" name="IMN_temp_25x25_km">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -44,9 +44,69 @@
         </layer-tree-layer>
       </layer-tree-group>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="PRECIS_Temp_ET0">
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="12D_Mean_Future_BC_SCALING_PRECIS_Temperature_(C)_25x25_km">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="PRECIS_temp_25x25_km_30N20200123103440757" name="360D_Uncorrected_[RAW]_PRECIS_temp_25x25_km_30N_1961-1990">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_BC_RCP26_2041_2070_Mean20200123105750246" name="EXPORT_BC_RCP26_2041_2070_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_BC_RCP26_2011_2040_Mean20200123105750238" name="EXPORT_BC_RCP26_2011_2040_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_BC_RCP85_2071_2100_Mean20200123105750228" name="EXPORT_BC_RCP85_2071_2100_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_BC_RCP85_2041_2070_Mean20200123105750219" name="EXPORT_BC_RCP85_2041_2070_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_BC_RCP85_2011_2040_Mean20200123105750209" name="EXPORT_BC_RCP85_2011_2040_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_BC_RCP45_2071_2100_Mean20200123105750200" name="EXPORT_BC_RCP45_2071_2100_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_BC_RCP45_2041_2070_Mean20200123105750184" name="EXPORT_BC_RCP45_2041_2070_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_BC_RCP45_2011_2040_Mean20200123105750168" name="EXPORT_BC_RCP45_2011_2040_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_BC_RCP26_2071_2100_Mean20200123105750168" name="EXPORT_BC_RCP26_2071_2100_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="12D_Mean_Future_BC_SCALING_PRECIS_ET0_(mm_day_month)_25x25_km">
+      <customproperties/>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_ET0_RCP26_2041_2070_Mean20200123110313256" name="EXPORT_ET0_RCP26_2041_2070_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_ET0_RCP26_2011_2040_Mean20200123110313249" name="EXPORT_ET0_RCP26_2011_2040_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_ET0_RCP85_2071_2100_Mean20200123110313242" name="EXPORT_ET0_RCP85_2071_2100_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_ET0_RCP85_2041_2070_Mean20200123110313220" name="EXPORT_ET0_RCP85_2041_2070_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_ET0_RCP85_2011_2040_Mean20200123110313220" name="EXPORT_ET0_RCP85_2011_2040_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_ET0_RCP45_2071_2100_Mean20200123110313220" name="EXPORT_ET0_RCP45_2071_2100_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_ET0_RCP45_2041_2070_Mean20200123110313204" name="EXPORT_ET0_RCP45_2041_2070_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_ET0_RCP45_2011_2040_Mean20200123110313204" name="EXPORT_ET0_RCP45_2011_2040_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_ET0_RCP26_2071_2100_Mean20200123110313189" name="EXPORT_ET0_RCP26_2071_2100_Mean">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="360D_Uncorrected_[RAW]_PRECIS_temp_25x25_km_30N_1961-1990">
+      <customproperties/>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="PRECIS_temp_25x25_km_30N20200123103440757" name="PRECIS_temp_25x25_km_30N">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -86,10 +146,28 @@
       <item>IMN_ET0_25x25_km20200123102151255</item>
       <item>IMN_ET0_25x25_km_30N20200123102554505</item>
       <item>PRECIS_temp_25x25_km_30N20200123103440757</item>
+      <item>EXPORT_BC_RCP26_2071_2100_Mean20200123105750168</item>
+      <item>EXPORT_BC_RCP45_2011_2040_Mean20200123105750168</item>
+      <item>EXPORT_BC_RCP45_2041_2070_Mean20200123105750184</item>
+      <item>EXPORT_BC_RCP45_2071_2100_Mean20200123105750200</item>
+      <item>EXPORT_BC_RCP85_2011_2040_Mean20200123105750209</item>
+      <item>EXPORT_BC_RCP85_2041_2070_Mean20200123105750219</item>
+      <item>EXPORT_BC_RCP85_2071_2100_Mean20200123105750228</item>
+      <item>EXPORT_BC_RCP26_2011_2040_Mean20200123105750238</item>
+      <item>EXPORT_BC_RCP26_2041_2070_Mean20200123105750246</item>
+      <item>EXPORT_ET0_RCP26_2071_2100_Mean20200123110313189</item>
+      <item>EXPORT_ET0_RCP45_2011_2040_Mean20200123110313204</item>
+      <item>EXPORT_ET0_RCP45_2041_2070_Mean20200123110313204</item>
+      <item>EXPORT_ET0_RCP45_2071_2100_Mean20200123110313220</item>
+      <item>EXPORT_ET0_RCP85_2011_2040_Mean20200123110313220</item>
+      <item>EXPORT_ET0_RCP85_2041_2070_Mean20200123110313220</item>
+      <item>EXPORT_ET0_RCP85_2071_2100_Mean20200123110313242</item>
+      <item>EXPORT_ET0_RCP26_2011_2040_Mean20200123110313249</item>
+      <item>EXPORT_ET0_RCP26_2041_2070_Mean20200123110313256</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendgroup open="true" checked="Qt::Unchecked" name="IMN_Observed_Temp_ET0">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="IMN_Observed_Temp_ET0">
       <legendgroup open="false" checked="Qt::Unchecked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_1x1_km">
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="TEMP_1960_1990_MONTHLY" showFeatureCount="0">
           <filegroup open="false" hidden="false">
@@ -97,10 +175,10 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="false" checked="Qt::Unchecked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_25x25_km">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="IMN_temp_25x25_km" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::Checked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_25x25_km">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="IMN_temp_25x25_km" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="IMN_temp_25x25_km20200123081537673" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="IMN_temp_25x25_km20200123081537673" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -133,10 +211,104 @@
         </legendlayer>
       </legendgroup>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Checked" name="PRECIS_Temp_ET0">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="360D_Uncorrected_[RAW]_PRECIS_temp_25x25_km_30N_1961-1990" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="PRECIS_temp_25x25_km_30N20200123103440757" visible="1"/>
+    <legendgroup open="false" checked="Qt::Unchecked" name="12D_Mean_Future_BC_SCALING_PRECIS_Temperature_(C)_25x25_km">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_BC_RCP26_2041_2070_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_BC_RCP26_2041_2070_Mean20200123105750246" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_BC_RCP26_2011_2040_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_BC_RCP26_2011_2040_Mean20200123105750238" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_BC_RCP85_2071_2100_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_BC_RCP85_2071_2100_Mean20200123105750228" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_BC_RCP85_2041_2070_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_BC_RCP85_2041_2070_Mean20200123105750219" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_BC_RCP85_2011_2040_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_BC_RCP85_2011_2040_Mean20200123105750209" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_BC_RCP45_2071_2100_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_BC_RCP45_2071_2100_Mean20200123105750200" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_BC_RCP45_2041_2070_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_BC_RCP45_2041_2070_Mean20200123105750184" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_BC_RCP45_2011_2040_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_BC_RCP45_2011_2040_Mean20200123105750168" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_BC_RCP26_2071_2100_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_BC_RCP26_2071_2100_Mean20200123105750168" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup open="false" checked="Qt::Unchecked" name="12D_Mean_Future_BC_SCALING_PRECIS_ET0_(mm_day_month)_25x25_km">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_ET0_RCP26_2041_2070_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_ET0_RCP26_2041_2070_Mean20200123110313256" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_ET0_RCP26_2011_2040_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_ET0_RCP26_2011_2040_Mean20200123110313249" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_ET0_RCP85_2071_2100_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_ET0_RCP85_2071_2100_Mean20200123110313242" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_ET0_RCP85_2041_2070_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_ET0_RCP85_2041_2070_Mean20200123110313220" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_ET0_RCP85_2011_2040_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_ET0_RCP85_2011_2040_Mean20200123110313220" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_ET0_RCP45_2071_2100_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_ET0_RCP45_2071_2100_Mean20200123110313220" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_ET0_RCP45_2041_2070_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_ET0_RCP45_2041_2070_Mean20200123110313204" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_ET0_RCP45_2011_2040_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_ET0_RCP45_2011_2040_Mean20200123110313204" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_ET0_RCP26_2071_2100_Mean" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="EXPORT_ET0_RCP26_2071_2100_Mean20200123110313189" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup open="false" checked="Qt::Unchecked" name="360D_Uncorrected_[RAW]_PRECIS_temp_25x25_km_30N_1961-1990">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PRECIS_temp_25x25_km_30N" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="PRECIS_temp_25x25_km_30N20200123103440757" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -169,6 +341,1176 @@
       </srs>
       <customproperties>
         <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="8" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="2" label="2" color="#92c5de"/>
+              <item alpha="255" value="4" label="4" color="#f7f7f7"/>
+              <item alpha="255" value="6" label="6" color="#f4a582"/>
+              <item alpha="255" value="8" label="8" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_BC_RCP26_2011_2040_Mean20200123105750238</id>
+      <datasource>./EXPORT_BC_RCP26_2011_2040_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_BC_RCP26_2011_2040_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="40" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="10" label="10" color="#92c5de"/>
+              <item alpha="255" value="20" label="20" color="#f7f7f7"/>
+              <item alpha="255" value="30" label="30" color="#f4a582"/>
+              <item alpha="255" value="40" label="40" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_BC_RCP26_2041_2070_Mean20200123105750246</id>
+      <datasource>./EXPORT_BC_RCP26_2041_2070_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_BC_RCP26_2041_2070_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="40" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="10" label="10" color="#92c5de"/>
+              <item alpha="255" value="20" label="20" color="#f7f7f7"/>
+              <item alpha="255" value="30" label="30" color="#f4a582"/>
+              <item alpha="255" value="40" label="40" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_BC_RCP26_2071_2100_Mean20200123105750168</id>
+      <datasource>./EXPORT_BC_RCP26_2071_2100_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_BC_RCP26_2071_2100_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="40" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="10" label="10" color="#92c5de"/>
+              <item alpha="255" value="20" label="20" color="#f7f7f7"/>
+              <item alpha="255" value="30" label="30" color="#f4a582"/>
+              <item alpha="255" value="40" label="40" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_BC_RCP45_2011_2040_Mean20200123105750168</id>
+      <datasource>./EXPORT_BC_RCP45_2011_2040_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_BC_RCP45_2011_2040_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="40" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="10" label="10" color="#92c5de"/>
+              <item alpha="255" value="20" label="20" color="#f7f7f7"/>
+              <item alpha="255" value="30" label="30" color="#f4a582"/>
+              <item alpha="255" value="40" label="40" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_BC_RCP45_2041_2070_Mean20200123105750184</id>
+      <datasource>./EXPORT_BC_RCP45_2041_2070_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_BC_RCP45_2041_2070_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="40" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="10" label="10" color="#92c5de"/>
+              <item alpha="255" value="20" label="20" color="#f7f7f7"/>
+              <item alpha="255" value="30" label="30" color="#f4a582"/>
+              <item alpha="255" value="40" label="40" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_BC_RCP45_2071_2100_Mean20200123105750200</id>
+      <datasource>./EXPORT_BC_RCP45_2071_2100_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_BC_RCP45_2071_2100_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="40" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="10" label="10" color="#92c5de"/>
+              <item alpha="255" value="20" label="20" color="#f7f7f7"/>
+              <item alpha="255" value="30" label="30" color="#f4a582"/>
+              <item alpha="255" value="40" label="40" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_BC_RCP85_2011_2040_Mean20200123105750209</id>
+      <datasource>./EXPORT_BC_RCP85_2011_2040_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_BC_RCP85_2011_2040_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="40" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="10" label="10" color="#92c5de"/>
+              <item alpha="255" value="20" label="20" color="#f7f7f7"/>
+              <item alpha="255" value="30" label="30" color="#f4a582"/>
+              <item alpha="255" value="40" label="40" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_BC_RCP85_2041_2070_Mean20200123105750219</id>
+      <datasource>./EXPORT_BC_RCP85_2041_2070_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_BC_RCP85_2041_2070_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="40" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="10" label="10" color="#92c5de"/>
+              <item alpha="255" value="20" label="20" color="#f7f7f7"/>
+              <item alpha="255" value="30" label="30" color="#f4a582"/>
+              <item alpha="255" value="40" label="40" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_BC_RCP85_2071_2100_Mean20200123105750228</id>
+      <datasource>./EXPORT_BC_RCP85_2071_2100_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_BC_RCP85_2071_2100_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="40" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="10" label="10" color="#92c5de"/>
+              <item alpha="255" value="20" label="20" color="#f7f7f7"/>
+              <item alpha="255" value="30" label="30" color="#f4a582"/>
+              <item alpha="255" value="40" label="40" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_ET0_RCP26_2011_2040_Mean20200123110313249</id>
+      <datasource>./EXPORT_ET0_RCP26_2011_2040_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_ET0_RCP26_2011_2040_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="8" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="2" label="2" color="#92c5de"/>
+              <item alpha="255" value="4" label="4" color="#f7f7f7"/>
+              <item alpha="255" value="6" label="6" color="#f4a582"/>
+              <item alpha="255" value="8" label="8" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_ET0_RCP26_2041_2070_Mean20200123110313256</id>
+      <datasource>./EXPORT_ET0_RCP26_2041_2070_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_ET0_RCP26_2041_2070_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="8" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="2" label="2" color="#92c5de"/>
+              <item alpha="255" value="4" label="4" color="#f7f7f7"/>
+              <item alpha="255" value="6" label="6" color="#f4a582"/>
+              <item alpha="255" value="8" label="8" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_ET0_RCP26_2071_2100_Mean20200123110313189</id>
+      <datasource>./EXPORT_ET0_RCP26_2071_2100_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_ET0_RCP26_2071_2100_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="8" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="2" label="2" color="#92c5de"/>
+              <item alpha="255" value="4" label="4" color="#f7f7f7"/>
+              <item alpha="255" value="6" label="6" color="#f4a582"/>
+              <item alpha="255" value="8" label="8" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_ET0_RCP45_2011_2040_Mean20200123110313204</id>
+      <datasource>./EXPORT_ET0_RCP45_2011_2040_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_ET0_RCP45_2011_2040_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="8" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="2" label="2" color="#92c5de"/>
+              <item alpha="255" value="4" label="4" color="#f7f7f7"/>
+              <item alpha="255" value="6" label="6" color="#f4a582"/>
+              <item alpha="255" value="8" label="8" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_ET0_RCP45_2041_2070_Mean20200123110313204</id>
+      <datasource>./EXPORT_ET0_RCP45_2041_2070_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_ET0_RCP45_2041_2070_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="8" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="2" label="2" color="#92c5de"/>
+              <item alpha="255" value="4" label="4" color="#f7f7f7"/>
+              <item alpha="255" value="6" label="6" color="#f4a582"/>
+              <item alpha="255" value="8" label="8" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_ET0_RCP45_2071_2100_Mean20200123110313220</id>
+      <datasource>./EXPORT_ET0_RCP45_2071_2100_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_ET0_RCP45_2071_2100_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="8" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="2" label="2" color="#92c5de"/>
+              <item alpha="255" value="4" label="4" color="#f7f7f7"/>
+              <item alpha="255" value="6" label="6" color="#f4a582"/>
+              <item alpha="255" value="8" label="8" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_ET0_RCP85_2011_2040_Mean20200123110313220</id>
+      <datasource>./EXPORT_ET0_RCP85_2011_2040_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_ET0_RCP85_2011_2040_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="8" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="2" label="2" color="#92c5de"/>
+              <item alpha="255" value="4" label="4" color="#f7f7f7"/>
+              <item alpha="255" value="6" label="6" color="#f4a582"/>
+              <item alpha="255" value="8" label="8" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_ET0_RCP85_2041_2070_Mean20200123110313220</id>
+      <datasource>./EXPORT_ET0_RCP85_2041_2070_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_ET0_RCP85_2041_2070_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+        <noDataList bandNo="7" useSrcNoData="1"/>
+        <noDataList bandNo="8" useSrcNoData="1"/>
+        <noDataList bandNo="9" useSrcNoData="1"/>
+        <noDataList bandNo="10" useSrcNoData="1"/>
+        <noDataList bandNo="11" useSrcNoData="1"/>
+        <noDataList bandNo="12" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="8" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#0571b0"/>
+              <item alpha="255" value="2" label="2" color="#92c5de"/>
+              <item alpha="255" value="4" label="4" color="#f7f7f7"/>
+              <item alpha="255" value="6" label="6" color="#f4a582"/>
+              <item alpha="255" value="8" label="8" color="#ca0020"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>273580</xmin>
+        <ymin>877734</ymin>
+        <xmax>673580</xmax>
+        <ymax>1252734</ymax>
+      </extent>
+      <id>EXPORT_ET0_RCP85_2071_2100_Mean20200123110313242</id>
+      <datasource>./EXPORT_ET0_RCP85_2071_2100_Mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>EXPORT_ET0_RCP85_2071_2100_Mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
         <property key="identify/format" value="Value"/>
       </customproperties>
       <provider>gdal</provider>
@@ -1176,7 +2518,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>360D_Uncorrected_[RAW]_PRECIS_temp_25x25_km_30N_1961-1990</layername>
+      <layername>PRECIS_temp_25x25_km_30N</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -1560,7 +2902,7 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="0" classificationMax="40" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="40" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
           <rasterTransparency/>
           <rastershader>
             <colorrampshader colorRampType="INTERPOLATED" clip="0">
