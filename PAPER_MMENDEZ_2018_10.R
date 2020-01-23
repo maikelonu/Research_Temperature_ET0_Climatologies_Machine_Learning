@@ -33,7 +33,7 @@
 #----------------------------------------------------------------------------------------------------
 
 # Workspace is cleared
-rm(list = ls())
+#rm(list = ls())
 
 # CRAN libraries are loaded
 require(raster)
@@ -70,7 +70,6 @@ require(VSURF)
 
 # Working directory is defined
 setwd("/mnt/BACKUP/R_ITC/XLSX")  # UBUNTU-LINUX
-setwd("E:/R_ITC/XLSX")           # MS-WINDOWS
 setwd("C:/DATOS/R_ITC/XLSX")     # MS-WINDOWS
 
 # Seed is set to make partitions reproducible
@@ -1078,7 +1077,6 @@ for (i in 1 : length(df.final.TEMP$num.month)) {
 # Months are ordered to avoid ggplot plotting conflicts
 df.final.TEMP$MONTH_CHR <- ordered(df.final.TEMP$MONTH_CHR, v.select.name)
 
-
 # A RMSE plot is prepared
 df.final.TEMP.RMSE <- df.final.TEMP [, c(6,9,12,15,20)]
 df.final.TEMP.RMSE <- melt(df.final.TEMP.RMSE)
@@ -1156,7 +1154,7 @@ CRTM05 <- CRS("+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ell
 crs(temp1x1km) <- CRTM05
 
 # Rasterbrick object is exported to GeoTIFF format
-writeRaster(temp1x1km, "TEMP_1960_1990_MONTHLY.tif", format="GTiff")
+writeRaster(temp1x1km, "TEMP_1960_1990_MONTHLY.tif", format="GTiff", overwrite = FALSE)
 
 # CR climati Region ShapeFile is loaded
 shp <- shapefile("zonas_climaticas_def_crtm05")
