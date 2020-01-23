@@ -5,11 +5,11 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="IMN_Observed_Temp_ET0">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="IMN_Observed_Temp_ET0">
       <customproperties/>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_1x1_km">
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_1x1_km">
         <customproperties/>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="TEMP_1960_1990_MONTHLY20200123075639127" name="TEMP_1960_1990_MONTHLY">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="TEMP_1960_1990_MONTHLY20200123075639127" name="TEMP_1960_1990_MONTHLY">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -44,9 +44,9 @@
         </layer-tree-layer>
       </layer-tree-group>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="12D_Mean_Future_BC_SCALING_PRECIS_Temperature_(C)_25x25_km">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="12D_Mean_Future_BC_SCALING_PRECIS_Temperature_(C)_25x25_km">
       <customproperties/>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="EXPORT_BC_RCP26_2041_2070_Mean20200123105750246" name="EXPORT_BC_RCP26_2041_2070_Mean">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_BC_RCP26_2041_2070_Mean20200123105750246" name="EXPORT_BC_RCP26_2041_2070_Mean">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="EXPORT_BC_RCP26_2011_2040_Mean20200123105750238" name="EXPORT_BC_RCP26_2011_2040_Mean">
@@ -167,11 +167,11 @@
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendgroup open="true" checked="Qt::Unchecked" name="IMN_Observed_Temp_ET0">
-      <legendgroup open="false" checked="Qt::Unchecked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_1x1_km">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="TEMP_1960_1990_MONTHLY" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="IMN_Observed_Temp_ET0">
+      <legendgroup open="true" checked="Qt::Checked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_1x1_km">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="TEMP_1960_1990_MONTHLY" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="TEMP_1960_1990_MONTHLY20200123075639127" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="TEMP_1960_1990_MONTHLY20200123075639127" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -211,10 +211,10 @@
         </legendlayer>
       </legendgroup>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::PartiallyChecked" name="12D_Mean_Future_BC_SCALING_PRECIS_Temperature_(C)_25x25_km">
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EXPORT_BC_RCP26_2041_2070_Mean" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::Unchecked" name="12D_Mean_Future_BC_SCALING_PRECIS_Temperature_(C)_25x25_km">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_BC_RCP26_2041_2070_Mean" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="EXPORT_BC_RCP26_2041_2070_Mean20200123105750246" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="EXPORT_BC_RCP26_2041_2070_Mean20200123105750246" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EXPORT_BC_RCP26_2011_2040_Mean" showFeatureCount="0">
