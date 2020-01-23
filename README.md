@@ -13,7 +13,11 @@ Forthcoming volumes
 
 Temperature Observational Network Costa Rica 1961-1990
 
-![alt test](/Image_001.png)
+![alt test](/compiled_temperature_1951-1990.png)
+
+ET0 Observational Network Costa Rica 1961-1990
+
+![alt test](/compiled_et0_1951-1990.png)
 
 Abstract:
 
