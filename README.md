@@ -11,11 +11,11 @@ Forthcoming volumes
 
 ![alt test](/sshot-1.png)
 
-Temperature Observational Network Costa Rica 1961-1990
+Temperature Observational Climatology Costa Rica 1961-1990
 
 ![alt test](/compiled_temperature_1951-1990.png)
 
-ET0 Observational Network Costa Rica 1961-1990
+ET0 Observational Climatology Costa Rica 1961-1990
 
 ![alt test](/compiled_et0_1951-1990.png)
 
@@ -40,10 +40,6 @@ process, since the remaining spatial fields exhibited poor correlation with temp
 resulted in data redundancy. While the quantitative and qualitative evaluation of CR and KED
 can be said to be comparable, CR is considered the best approach since the method is
 unaffected by assumptions on data normality and homoscedasticity.
-
-Temperature Climatology
-
-![alt test](/Cubist_Temp_1961_1990.png)
 
 Spatial Covariants
 
