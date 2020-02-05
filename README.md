@@ -3,12 +3,10 @@
 # Comparison performance of machine learning and geostatistical methods for the interpolation of monthly air temperature over Costa Rica
 
 IOP Conference Series: Earth and Environmental Science
+
 # https://iopscience.iop.org/article/10.1088/1755-1315/432/1/012011/meta
 
 # https://doi.org/10.1088/1755-1315/432/1/012011
-
-2019 International Conference on Resources and Environmental Research (ICRER) 
-# http://www.icrer18.org
 
 Temperature Observational Climatology Costa Rica 1961-1990
 
