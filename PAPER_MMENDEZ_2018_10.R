@@ -1,13 +1,17 @@
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 # INSTITUTO TECNOLOGICO DE COSTA RICA
 # Escuela de Ingenieria en Construccion
+# Construction Engineering School
 # https://www.tec.ac.cr
-
 # Eng. MSc. Maikel Mendez Morales
-# email: maikel.mendez@gmail.com mamendez@itcr.ac.cr
-# Github: https://github.com/maikelonu
-# Google Scholar: https://scholar.google.com/citations?hl=en&user=JnmSVFYAAAAJ
-# YouTube: https://www.youtube.com/c/MaikelMendez
+# Email: maikel.mendez@gmail.com; mamendez@itcr.ac.cr
+# https://orcid.org/0000-0003-1919-141X
+# https://www.scopus.com/authid/detail.uri?authorId=51665581300
+# https://scholar.google.com/citations?user=JnmSVFYAAAAJ&hl=en
+# https://www.youtube.com/c/maikelmendez
+# https://twitter.com/MaikelMendezM
+# https://github.com/maikelonu
+# Skype: maikel.mendez
 # ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #----------------------------------------------------------------------------------------------------

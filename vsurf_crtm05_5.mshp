@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY saga-version="2.2.2">
+    <MODULE library="shapes_grid" id="0" name="Add Grid Values to Points">
+      <OPTION type="choice" id="INTERPOL" name="Interpolation" index="0">Nearest Neighbor</OPTION>
+      <INPUT type="shapes" id="SHAPES" name="Points">
+        <MODULE library="shapes_grid" id="0" name="Add Grid Values to Points">
+          <OPTION type="choice" id="INTERPOL" name="Interpolation" index="0">Nearest Neighbor</OPTION>
+          <INPUT type="shapes" id="SHAPES" name="Points">
+            <MODULE library="shapes_grid" id="0" name="Add Grid Values to Points">
+              <OPTION type="choice" id="RESAMPLING" name="Resampling" index="3">B-Spline Interpolation</OPTION>
+              <INPUT type="shapes" id="SHAPES" name="Points">
+                <MODULE library="shapes_grid" id="0" name="Add Grid Values to Points">
+                  <OPTION type="choice" id="INTERPOL" name="Interpolation" index="1">Bilinear Interpolation</OPTION>
+                  <INPUT type="shapes" id="SHAPES" name="Points">
+                    <FILE>E:\R_ITC\XLSX\RF_spatial\vsurf_crtm05.shp</FILE>
+                  </INPUT>
+                  <INPUT_LIST type="grid_list" id="GRIDS" name="Grids">
+                    <INPUT type="grid_list" id="GRIDS" name="Grids">
+                      <MODULE library="ta_compound" id="0" name="Basic Terrain Analysis">
+                        <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+                          <CELLSIZE>1000</CELLSIZE>
+                          <XMIN>286080</XMIN>
+                          <XMAX>660080</XMAX>
+                          <YMIN>888734</YMIN>
+                          <YMAX>1240734</YMAX>
+                        </OPTION>
+                        <OPTION type="integer" id="THRESHOLD" name="Channel Density">5</OPTION>
+                        <INPUT type="grid" id="ELEVATION" name="Elevation" system="PARAMETERS_GRID_SYSTEM">
+                          <MODULE library="io_grid" id="1" name="Import ESRI Arc/Info Grid">
+                            <OPTION type="file" id="FILE" name="File">E:\R_ITC\XLSX\RF_spatial\alos_fill.asc</OPTION>
+                            <OPTION type="choice" id="GRID_TYPE" name="Target Grid Type" index="2">Floating Point (4 byte)</OPTION>
+                            <OPTION type="choice" id="NODATA" name="NoData Value" index="0">Input File's NoData Value</OPTION>
+                            <OPTION type="double" id="NODATA_VAL" name="User Defined NoData Value">-99999.000000</OPTION>
+                            <OUTPUT type="data_object" id="GRID" name="Grid">alos_fill</OUTPUT>
+                          </MODULE>
+                        </INPUT>
+                        <OUTPUT type="grid" id="SLOPE" name="Slope">Slope</OUTPUT>
+                      </MODULE>
+                    </INPUT>
+                    <INPUT type="grid_list" id="GRIDS" name="Grids">
+                      <MODULE library="io_grid" id="1" name="Import ESRI Arc/Info Grid">
+                        <OPTION type="file" id="FILE" name="File">E:\R_ITC\XLSX\RF_spatial\alos_fill.asc</OPTION>
+                        <OPTION type="choice" id="GRID_TYPE" name="Target Grid Type" index="2">Floating Point (4 byte)</OPTION>
+                        <OPTION type="choice" id="NODATA" name="NoData Value" index="0">Input File's NoData Value</OPTION>
+                        <OPTION type="double" id="NODATA_VAL" name="User Defined NoData Value">-99999.000000</OPTION>
+                        <OUTPUT type="data_object" id="GRID" name="Grid">alos_fill</OUTPUT>
+                      </MODULE>
+                    </INPUT>
+                    <INPUT type="grid_list" id="GRIDS" name="Grids">
+                      <MODULE library="ta_compound" id="0" name="Basic Terrain Analysis">
+                        <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+                          <CELLSIZE>1000</CELLSIZE>
+                          <XMIN>286080</XMIN>
+                          <XMAX>660080</XMAX>
+                          <YMIN>888734</YMIN>
+                          <YMAX>1240734</YMAX>
+                        </OPTION>
+                        <OPTION type="integer" id="THRESHOLD" name="Channel Density">5</OPTION>
+                        <INPUT type="grid" id="ELEVATION" name="Elevation" system="PARAMETERS_GRID_SYSTEM">
+                          <MODULE library="io_grid" id="1" name="Import ESRI Arc/Info Grid">
+                            <OPTION type="file" id="FILE" name="File">E:\R_ITC\XLSX\RF_spatial\alos_fill.asc</OPTION>
+                            <OPTION type="choice" id="GRID_TYPE" name="Target Grid Type" index="2">Floating Point (4 byte)</OPTION>
+                            <OPTION type="choice" id="NODATA" name="NoData Value" index="0">Input File's NoData Value</OPTION>
+                            <OPTION type="double" id="NODATA_VAL" name="User Defined NoData Value">-99999.000000</OPTION>
+                            <OUTPUT type="data_object" id="GRID" name="Grid">alos_fill</OUTPUT>
+                          </MODULE>
+                        </INPUT>
+                        <OUTPUT type="grid" id="ASPECT" name="Aspect">Aspect</OUTPUT>
+                      </MODULE>
+                    </INPUT>
+                    <INPUT type="grid_list" id="GRIDS" name="Grids">
+                      <MODULE library="ta_compound" id="0" name="Basic Terrain Analysis">
+                        <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+                          <CELLSIZE>1000</CELLSIZE>
+                          <XMIN>286080</XMIN>
+                          <XMAX>660080</XMAX>
+                          <YMIN>888734</YMIN>
+                          <YMAX>1240734</YMAX>
+                        </OPTION>
+                        <OPTION type="integer" id="THRESHOLD" name="Channel Density">5</OPTION>
+                        <INPUT type="grid" id="ELEVATION" name="Elevation" system="PARAMETERS_GRID_SYSTEM">
+                          <MODULE library="io_grid" id="1" name="Import ESRI Arc/Info Grid">
+                            <OPTION type="file" id="FILE" name="File">E:\R_ITC\XLSX\RF_spatial\alos_fill.asc</OPTION>
+                            <OPTION type="choice" id="GRID_TYPE" name="Target Grid Type" index="2">Floating Point (4 byte)</OPTION>
+                            <OPTION type="choice" id="NODATA" name="NoData Value" index="0">Input File's NoData Value</OPTION>
+                            <OPTION type="double" id="NODATA_VAL" name="User Defined NoData Value">-99999.000000</OPTION>
+                            <OUTPUT type="data_object" id="GRID" name="Grid">alos_fill</OUTPUT>
+                          </MODULE>
+                        </INPUT>
+                        <OUTPUT type="grid" id="WETNESS" name="Topographic Wetness Index">Topographic Wetness Index</OUTPUT>
+                      </MODULE>
+                    </INPUT>
+                    <INPUT type="grid_list" id="GRIDS" name="Grids">
+                      <MODULE library="ta_compound" id="0" name="Basic Terrain Analysis">
+                        <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+                          <CELLSIZE>1000</CELLSIZE>
+                          <XMIN>286080</XMIN>
+                          <XMAX>660080</XMAX>
+                          <YMIN>888734</YMIN>
+                          <YMAX>1240734</YMAX>
+                        </OPTION>
+                        <OPTION type="integer" id="THRESHOLD" name="Channel Density">5</OPTION>
+                        <INPUT type="grid" id="ELEVATION" name="Elevation" system="PARAMETERS_GRID_SYSTEM">
+                          <MODULE library="io_grid" id="1" name="Import ESRI Arc/Info Grid">
+                            <OPTION type="file" id="FILE" name="File">E:\R_ITC\XLSX\RF_spatial\alos_fill.asc</OPTION>
+                            <OPTION type="choice" id="GRID_TYPE" name="Target Grid Type" index="2">Floating Point (4 byte)</OPTION>
+                            <OPTION type="choice" id="NODATA" name="NoData Value" index="0">Input File's NoData Value</OPTION>
+                            <OPTION type="double" id="NODATA_VAL" name="User Defined NoData Value">-99999.000000</OPTION>
+                            <OUTPUT type="data_object" id="GRID" name="Grid">alos_fill</OUTPUT>
+                          </MODULE>
+                        </INPUT>
+                        <OUTPUT type="grid" id="LSFACTOR" name="LS-Factor">LS Factor</OUTPUT>
+                      </MODULE>
+                    </INPUT>
+                    <INPUT type="grid_list" id="GRIDS" name="Grids">
+                      <MODULE library="ta_lighting" id="2" name="Potential Incoming Solar Radiation">
+                        <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+                          <CELLSIZE>1000</CELLSIZE>
+                          <XMIN>286080</XMIN>
+                          <XMAX>660080</XMAX>
+                          <YMIN>888734</YMIN>
+                          <YMAX>1240734</YMAX>
+                        </OPTION>
+                        <OPTION type="double" id="SOLARCONST" name="Solar Constant [W / m²]">1367.000000</OPTION>
+                        <OPTION type="boolean" id="LOCALSVF" name="Local Sky View Factor">TRUE</OPTION>
+                        <OPTION type="choice" id="UNITS" name="Units" index="0">kWh / m2</OPTION>
+                        <OPTION type="choice" id="SHADOW" name="Shadow" index="1">fat</OPTION>
+                        <OPTION type="choice" id="UPDATE" name="Update" index="0">do not update</OPTION>
+                        <OPTION type="choice" id="LOCATION" name="Location" index="0">constant latitude</OPTION>
+                        <OPTION type="degree" id="LATITUDE" name="Latitude">+053°00'00''</OPTION>
+                        <OPTION type="choice" id="PERIOD" name="Time Period" index="1">day</OPTION>
+                        <OPTION type="range" id="HOUR_RANGE" name="Time Span [h]">0.000000; 24.000000</OPTION>
+                        <OPTION type="double" id="HOUR_STEP" name="Time Resolution [h]: Day">0.500000</OPTION>
+                        <OPTION type="integer" id="DAY_A" name="Day">21</OPTION>
+                        <OPTION type="choice" id="MON_A" name="Month" index="5">June</OPTION>
+                        <OPTION type="integer" id="YEAR_A" name="Year">2019</OPTION>
+                        <OPTION type="choice" id="METHOD" name="Atmospheric Effects" index="2">Lumped Atmospheric Transmittance</OPTION>
+                        <OPTION type="double" id="LUMPED" name="Lumped Atmospheric Transmittance [Percent]">70.000000</OPTION>
+                        <INPUT type="grid" id="GRD_DEM" name="Elevation" system="PARAMETERS_GRID_SYSTEM">
+                          <MODULE library="io_grid" id="1" name="Import ESRI Arc/Info Grid">
+                            <OPTION type="file" id="FILE" name="File">E:\R_ITC\XLSX\RF_spatial\alos_fill.asc</OPTION>
+                            <OPTION type="choice" id="GRID_TYPE" name="Target Grid Type" index="2">Floating Point (4 byte)</OPTION>
+                            <OPTION type="choice" id="NODATA" name="NoData Value" index="0">Input File's NoData Value</OPTION>
+                            <OPTION type="double" id="NODATA_VAL" name="User Defined NoData Value">-99999.000000</OPTION>
+                            <OUTPUT type="data_object" id="GRID" name="Grid">alos_fill</OUTPUT>
+                          </MODULE>
+                        </INPUT>
+                        <OUTPUT type="grid" id="GRD_DIRECT" name="Direct Insolation">Direct Insolation</OUTPUT>
+                      </MODULE>
+                    </INPUT>
+                    <INPUT type="grid_list" id="GRIDS" name="Grids">
+                      <MODULE library="ta_morphometry" id="21" name="Terrain Surface Convexity">
+                        <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+                          <CELLSIZE>1000</CELLSIZE>
+                          <XMIN>286080</XMIN>
+                          <XMAX>660080</XMAX>
+                          <YMIN>888734</YMIN>
+                          <YMAX>1240734</YMAX>
+                        </OPTION>
+                        <OPTION type="choice" id="KERNEL" name="Laplacian Filter Kernel" index="0">conventional four-neighbourhood</OPTION>
+                        <OPTION type="choice" id="TYPE" name="Type" index="0">convexity</OPTION>
+                        <OPTION type="double" id="EPSILON" name="Flat Area Threshold">0.000000</OPTION>
+                        <OPTION type="integer" id="SCALE" name="Scale (Cells)">10</OPTION>
+                        <OPTION type="choice" id="METHOD" name="Method" index="1">resampling</OPTION>
+                        <INPUT type="grid" id="DEM" name="Elevation" system="PARAMETERS_GRID_SYSTEM">
+                          <MODULE library="io_grid" id="1" name="Import ESRI Arc/Info Grid">
+                            <OPTION type="file" id="FILE" name="File">E:\R_ITC\XLSX\RF_spatial\alos_fill.asc</OPTION>
+                            <OPTION type="choice" id="GRID_TYPE" name="Target Grid Type" index="2">Floating Point (4 byte)</OPTION>
+                            <OPTION type="choice" id="NODATA" name="NoData Value" index="0">Input File's NoData Value</OPTION>
+                            <OPTION type="double" id="NODATA_VAL" name="User Defined NoData Value">-99999.000000</OPTION>
+                            <OUTPUT type="data_object" id="GRID" name="Grid">alos_fill</OUTPUT>
+                          </MODULE>
+                        </INPUT>
+                        <OUTPUT type="grid" id="CONVEXITY" name="Convexity">Convexity</OUTPUT>
+                      </MODULE>
+                    </INPUT>
+                    <INPUT type="grid_list" id="GRIDS" name="Grids">
+                      <MODULE library="ta_morphometry" id="27" name="Wind Exposition Index">
+                        <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+                          <CELLSIZE>1000</CELLSIZE>
+                          <XMIN>286080</XMIN>
+                          <XMAX>660080</XMAX>
+                          <YMIN>888734</YMIN>
+                          <YMAX>1240734</YMAX>
+                        </OPTION>
+                        <OPTION type="double" id="MAXDIST" name="Search Distance [km]">50.000000</OPTION>
+                        <OPTION type="double" id="STEP" name="Angular Step Size (Degree)">15.000000</OPTION>
+                        <OPTION type="boolean" id="OLDVER" name="Old Version">FALSE</OPTION>
+                        <OPTION type="double" id="ACCEL" name="Acceleration">1.500000</OPTION>
+                        <OPTION type="boolean" id="PYRAMIDS" name="Elevation Averaging">FALSE</OPTION>
+                        <INPUT type="grid" id="DEM" name="Elevation" system="PARAMETERS_GRID_SYSTEM">
+                          <MODULE library="io_grid" id="1" name="Import ESRI Arc/Info Grid">
+                            <OPTION type="file" id="FILE" name="File">E:\R_ITC\XLSX\RF_spatial\alos_fill.asc</OPTION>
+                            <OPTION type="choice" id="GRID_TYPE" name="Target Grid Type" index="2">Floating Point (4 byte)</OPTION>
+                            <OPTION type="choice" id="NODATA" name="NoData Value" index="0">Input File's NoData Value</OPTION>
+                            <OPTION type="double" id="NODATA_VAL" name="User Defined NoData Value">-99999.000000</OPTION>
+                            <OUTPUT type="data_object" id="GRID" name="Grid">alos_fill</OUTPUT>
+                          </MODULE>
+                        </INPUT>
+                        <OUTPUT type="grid" id="EXPOSITION" name="Wind Exposition">Wind Exposition</OUTPUT>
+                      </MODULE>
+                    </INPUT>
+                    <INPUT type="grid_list" id="GRIDS" name="Grids">
+                      <MODULE library="grid_tools" id="26" name="Proximity Grid">
+                        <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+                          <CELLSIZE>1000</CELLSIZE>
+                          <XMIN>286080</XMIN>
+                          <XMAX>660080</XMAX>
+                          <YMIN>888734</YMIN>
+                          <YMAX>1240734</YMAX>
+                        </OPTION>
+                        <INPUT type="grid" id="FEATURES" name="Features" system="PARAMETERS_GRID_SYSTEM">
+                          <MODULE library="grid_gridding" id="0" name="Shapes to Grid">
+                            <OPTION type="choice" id="OUTPUT" name="Output Values" index="0">data / no-data</OPTION>
+                            <OPTION type="choice" id="GRID_TYPE" name="Preferred Target Grid Type" index="3">Floating Point (4 byte)</OPTION>
+                            <OPTION type="choice" id="TARGET_DEFINITION" name="Target Grid System" index="1">grid or grid system</OPTION>
+                            <OPTION type="grid_system" id="TARGET_SYSTEM" name="Grid System">
+                              <CELLSIZE>1000</CELLSIZE>
+                              <XMIN>286080</XMIN>
+                              <XMAX>660080</XMAX>
+                              <YMIN>888734</YMIN>
+                              <YMAX>1240734</YMAX>
+                            </OPTION>
+                            <INPUT type="shapes" id="INPUT" name="Shapes">
+                              <FILE>E:\R_ITC\XLSX\RF_spatial\vsurf_crtm05.shp</FILE>
+                            </INPUT>
+                            <OUTPUT type="grid" id="GRID" name="Grid">vsurf_crtm05 [ID]</OUTPUT>
+                          </MODULE>
+                        </INPUT>
+                        <OUTPUT type="grid" id="DISTANCE" name="Distance">Distance</OUTPUT>
+                      </MODULE>
+                    </INPUT>
+                  </INPUT_LIST>
+                  <OUTPUT type="shapes" id="RESULT" name="Result">vsurf_crtm05</OUTPUT>
+                </MODULE>
+              </INPUT>
+              <INPUT_LIST type="grid_list" id="GRIDS" name="Grids">
+                <r_mean_JAN type="grid_list" id="GRIDS" name="Grids"/>
+                <r_mean_FEB type="grid_list" id="GRIDS" name="Grids"/>
+                <r_mean_MAR type="grid_list" id="GRIDS" name="Grids"/>
+                <r_mean_APR type="grid_list" id="GRIDS" name="Grids"/>
+                <r_mean_MAY type="grid_list" id="GRIDS" name="Grids"/>
+                <r_mean_JUN type="grid_list" id="GRIDS" name="Grids"/>
+                <r_mean_JUL type="grid_list" id="GRIDS" name="Grids"/>
+                <r_mean_AUG type="grid_list" id="GRIDS" name="Grids"/>
+                <r_mean_SEP type="grid_list" id="GRIDS" name="Grids"/>
+                <r_mean_OCT type="grid_list" id="GRIDS" name="Grids"/>
+                <r_mean_NOV type="grid_list" id="GRIDS" name="Grids"/>
+                <r_mean_DIC type="grid_list" id="GRIDS" name="Grids"/>
+              </INPUT_LIST>
+              <OUTPUT type="shapes" id="RESULT" name="Result">vsurf_crtm05</OUTPUT>
+            </MODULE>
+          </INPUT>
+          <INPUT_LIST type="grid_list" id="GRIDS" name="Grids">
+            <INPUT type="grid_list" id="GRIDS" name="Grids">
+              <MODULE library="grid_tools" id="26" name="Proximity Grid">
+                <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+                  <CELLSIZE>1000</CELLSIZE>
+                  <XMIN>286080</XMIN>
+                  <XMAX>660080</XMAX>
+                  <YMIN>888734</YMIN>
+                  <YMAX>1240734</YMAX>
+                </OPTION>
+                <INPUT type="grid" id="FEATURES" name="Features" system="PARAMETERS_GRID_SYSTEM">
+                  <MODULE library="grid_gridding" id="0" name="Shapes to Grid">
+                    <OPTION type="choice" id="OUTPUT" name="Output Values" index="0">data / no-data</OPTION>
+                    <OPTION type="choice" id="LINE_TYPE" name="Lines" index="1">thick</OPTION>
+                    <OPTION type="choice" id="GRID_TYPE" name="Preferred Target Grid Type" index="3">Floating Point (4 byte)</OPTION>
+                    <OPTION type="choice" id="TARGET_DEFINITION" name="Target Grid System" index="1">grid or grid system</OPTION>
+                    <OPTION type="grid_system" id="TARGET_SYSTEM" name="Grid System">
+                      <CELLSIZE>1000</CELLSIZE>
+                      <XMIN>286080</XMIN>
+                      <XMAX>660080</XMAX>
+                      <YMIN>888734</YMIN>
+                      <YMAX>1240734</YMAX>
+                    </OPTION>
+                    <INPUT type="shapes" id="INPUT" name="Shapes">
+                      <FILE>E:\R_ITC\XLSX\RF_spatial\CoastLine_CRTM05.shp</FILE>
+                    </INPUT>
+                    <OUTPUT type="grid" id="GRID" name="Grid">CoastLine_CRTM05 [ID]</OUTPUT>
+                  </MODULE>
+                </INPUT>
+                <OUTPUT type="grid" id="DISTANCE" name="Distance">Distance</OUTPUT>
+              </MODULE>
+            </INPUT>
+          </INPUT_LIST>
+          <OUTPUT type="shapes" id="RESULT" name="Result">vsurf_crtm05</OUTPUT>
+        </MODULE>
+      </INPUT>
+      <INPUT_LIST type="grid_list" id="GRIDS" name="Grids">
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+      </INPUT_LIST>
+      <OUTPUT type="shapes" id="RESULT" name="Result">vsurf_crtm05</OUTPUT>
+    </MODULE>
+  </HISTORY>
+  <SOURCE>
+    <FILE>E:\R_ITC\XLSX\RF_spatial\vsurf_crtm05_5.shp</FILE>
+    <DATABASE></DATABASE>
+    <PROJECTION>
+      <OGC_WKT>PROJCS["CR05_CRTM05",GEOGCS["GCS_CR05",DATUM["D_Costa_Rica_2005",SPHEROID["WGS_1984",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-84],PARAMETER["scale_factor",0.9999],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["Meter",1]]</OGC_WKT>
+      <PROJ4>+proj=tmerc +a=6378137.000000 +b=6356752.314245 +lat_0=0 +lon_0=-84 +k_0=0.9999 +x_0=500000 +y_0=0 +no_defs</PROJ4>
+      <EPSG>-1</EPSG>
+    </PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>

@@ -5,11 +5,14 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="cuencas_asistencia_120200306073559893" name="cuencas_asistencia_1">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="IMN_Observed_Temp_ET0">
       <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_1x1_km">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_1x1_km">
         <customproperties/>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="TEMP_1960_1990_MONTHLY20200123075639127" name="TEMP_1960_1990_MONTHLY">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="TEMP_1960_1990_MONTHLY20200123075639127" name="TEMP_1960_1990_MONTHLY">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -19,7 +22,7 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="360D_QUASI_Mean_Observed_Temp_IMN_1951_1990_(C)_25x25_km">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="360D_QUASI_Mean_Observed_Temp_IMN_1951_1990_(C)_25x25_km">
         <customproperties/>
         <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="IMN_temp_25x25_km_30N20200123100935797" name="IMN_temp_25x25_km_30N">
           <customproperties/>
@@ -31,13 +34,13 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="12D_Mean_Observed_ET0_IMN_1951_1990_(mm_day_month)_25x25_km">
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="12D_Mean_Observed_ET0_IMN_1951_1990_(mm_day_month)_25x25_km">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="IMN_ET0_25x25_km20200123102151255" name="IMN_ET0_25x25_km">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="IMN_ET0_25x25_km20200123102151255" name="IMN_ET0_25x25_km">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="360D_QUASI_Mean_Observed_ET0_IMN_1951_1990_(mm_day_month)_25x25_km">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="360D_QUASI_Mean_Observed_ET0_IMN_1951_1990_(mm_day_month)_25x25_km">
         <customproperties/>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="IMN_ET0_25x25_km_30N20200123102554505" name="IMN_ET0_25x25_km_30N">
           <customproperties/>
@@ -104,7 +107,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="360D_Uncorrected_[RAW]_PRECIS_temp_25x25_km_30N_1961-1990">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="360D_Uncorrected_[RAW]_PRECIS_temp_25x25_km_30N_1961-1990">
       <customproperties/>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="PRECIS_temp_25x25_km_30N20200123103440757" name="PRECIS_temp_25x25_km_30N">
         <customproperties/>
@@ -115,9 +118,9 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>276205</xmin>
+      <xmin>277060.01730103802401572</xmin>
       <ymin>879409</ymin>
-      <xmax>669955</xmax>
+      <xmax>670810.01730103802401572</xmax>
       <ymax>1250059</ymax>
     </extent>
     <rotation>0</rotation>
@@ -164,14 +167,20 @@
       <item>EXPORT_ET0_RCP85_2071_2100_Mean20200123110313242</item>
       <item>EXPORT_ET0_RCP26_2011_2040_Mean20200123110313249</item>
       <item>EXPORT_ET0_RCP26_2041_2070_Mean20200123110313256</item>
+      <item>cuencas_asistencia_120200306073559893</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="cuencas_asistencia_1" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="cuencas_asistencia_120200306073559893" visible="1"/>
+      </filegroup>
+    </legendlayer>
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="IMN_Observed_Temp_ET0">
-      <legendgroup open="true" checked="Qt::Checked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_1x1_km">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="TEMP_1960_1990_MONTHLY" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::Unchecked" name="12D_Mean_Observed_Temp_IMN_1951_1990_(C)_1x1_km">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="TEMP_1960_1990_MONTHLY" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="TEMP_1960_1990_MONTHLY20200123075639127" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="TEMP_1960_1990_MONTHLY20200123075639127" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -182,7 +191,7 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="false" checked="Qt::Unchecked" name="360D_QUASI_Mean_Observed_Temp_IMN_1951_1990_(C)_25x25_km">
+      <legendgroup open="true" checked="Qt::Unchecked" name="360D_QUASI_Mean_Observed_Temp_IMN_1951_1990_(C)_25x25_km">
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="IMN_temp_25x25_km_30N" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="IMN_temp_25x25_km_30N20200123100935797" visible="0"/>
@@ -196,14 +205,14 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="false" checked="Qt::Unchecked" name="12D_Mean_Observed_ET0_IMN_1951_1990_(mm_day_month)_25x25_km">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="IMN_ET0_25x25_km" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::Checked" name="12D_Mean_Observed_ET0_IMN_1951_1990_(mm_day_month)_25x25_km">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="IMN_ET0_25x25_km" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="IMN_ET0_25x25_km20200123102151255" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="IMN_ET0_25x25_km20200123102151255" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="false" checked="Qt::Unchecked" name="360D_QUASI_Mean_Observed_ET0_IMN_1951_1990_(mm_day_month)_25x25_km">
+      <legendgroup open="true" checked="Qt::Unchecked" name="360D_QUASI_Mean_Observed_ET0_IMN_1951_1990_(mm_day_month)_25x25_km">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="IMN_ET0_25x25_km_30N" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="IMN_ET0_25x25_km_30N20200123102554505" visible="0"/>
@@ -305,7 +314,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Unchecked" name="360D_Uncorrected_[RAW]_PRECIS_temp_25x25_km_30N_1961-1990">
+    <legendgroup open="true" checked="Qt::Unchecked" name="360D_Uncorrected_[RAW]_PRECIS_temp_25x25_km_30N_1961-1990">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PRECIS_temp_25x25_km_30N" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="PRECIS_temp_25x25_km_30N20200123103440757" visible="0"/>
@@ -2985,6 +2994,112 @@
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>cuencas_asistencia_120200306073559893</id>
+      <datasource>../../Users/TEC/Downloads/CAPAS_CUENCAS_KDUARTE/CUENCAS_ASISTECIA_1/cuencas_asistencia_1.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>cuencas_asistencia_1</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28128</srsid>
+          <srid>5367</srid>
+          <authid>EPSG:5367</authid>
+          <description>CR05 / CRTM05</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="CATCH_MERG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Cuencas">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="12,195,140,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>CATCH_MERG</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="6619252">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
     </maplayer>
   </projectlayers>
   <properties>
