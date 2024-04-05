@@ -26,11 +26,9 @@ https://iopscience.iop.org/article/10.1088/1755-1315/432/1/012011/meta
 
 https://doi.org/10.1088/1755-1315/432/1/012011
 
-![alt test](/compiled_temperature_1951-1990.png)
+![alt test](/mansc_721.png)
 
 Graphical Abstract
-
-![alt test](/compiled_et0_1951-1990.png)
 
 ![alt test](/QGIS_Temp_ET0.png)
 
@@ -42,8 +40,13 @@ can be said to be comparable, CR is considered the best approach since the metho
 
 Results
 
+![alt test](/compiled_temperature_1951-1990.png)
+
+![alt test](/compiled_et0_1951-1990.png)
+
 ![alt test](/FR18_01.png)
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
